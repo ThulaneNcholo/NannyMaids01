@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Poppins Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <!-- AOS animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- main css  -->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+
+    <!-- services css  -->
+    <link rel="stylesheet" href="/assets/css/services.css" />
+
+    <style>
+      .page_header {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("assets/images/nannyMaids/page_image.png");
+
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+        background-size: cover;
+      }
+    </style>
+
+    <title>Cleaning Service</title>
+  </head>
+  <body>
+    <!-- =======  Navbar  ======= -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar_bg sticky-top">
+      <div class="container">
+        <img
+          src="assets/images/nannyMaids/transparentNannyMaids.png"
+          alt=""
+          class="navbar_img rounded"
+        />
+        <a class="navbar-brand d-none d-md-block" href="index.html"
+          >NannyMaids
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active navLinks"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLinks" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLinks" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLinks" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <i class="bi bi-telephone-fill navbar_icon"></i>
+            <p class="mb-0 fw-bold navbarNumber">071 949 3358</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- =======  Banner 01  ======= -->
+    <section class="page_header">
+      <div class="container">
+        <center>
+          <h2 class="section_title">Services & Pricing</h2>
+        </center>
+      </div>
+    </section>
+
+    <!-- =======  Services  ======= -->
+    <section class="container mt-5">
+      <center>
+        <h2 class="text-white section_title py-5">Services</h2>
+      </center>
+      <div class="row overflow_content">
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <div class="service_icon_container">
+              <span
+                class="material-symbols-outlined white_card_icon text-white mb-3"
+              >
+                child_care
+              </span>
+            </div>
+            <h6 class="service_title">Babysitting</h6>
+            <p class="text-white">
+              Trusted childcare professionals provide attentive and nurturing
+              care for your little ones, ensuring their safety and well-being
+              while you handle your daily responsibilities worry-free.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <div class="service_icon_container">
+              <span
+                class="material-symbols-outlined white_card_icon text-white mb-3"
+              >
+                mop
+              </span>
+            </div>
+            <h6 class="service_title">Standard Cleaning</h6>
+            <p class="text-white">
+              Our standard cleaning service offers a thorough and efficient
+              approach to tidying up your home, including dusting, vacuuming,
+              mopping, and surface disinfection, leaving your space refreshed
+              and inviting.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <div class="service_icon_container">
+              <span
+                class="material-symbols-outlined white_card_icon text-white mb-3"
+              >
+                cleaning_services
+              </span>
+            </div>
+            <h6 class="service_title">Residential Cleaning</h6>
+            <p class="text-white">
+              Tailored to your needs, our residential cleaning service covers
+              all aspects of home maintenance, from kitchens to bathrooms,
+              bedrooms to living areas, delivering a comprehensive clean that
+              rejuvenates your living space.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <div class="service_icon_container">
+              <span
+                class="material-symbols-outlined white_card_icon text-white mb-3"
+              >
+                grid_view
+              </span>
+            </div>
+            <h6 class="service_title">Window Cleaning</h6>
+            <p class="text-white">
+              Enhance the brightness and clarity of your home with our
+              professional window cleaning service, ensuring streak-free,
+              sparkling windows that let in maximum light and offer clear views.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <div class="service_icon_container">
+              <span
+                class="material-symbols-outlined white_card_icon text-white mb-3"
+              >
+                event_available
+              </span>
+            </div>
+            <h6 class="service_title">Special Events Cleaning</h6>
+            <p class="text-white">
+              Let us handle the cleanup after your special occasions with our
+              specialized event cleaning service, ensuring your venue is
+              immaculate and ready for the next memorable gathering.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <div class="service_icon_container">
+              <span
+                class="material-symbols-outlined white_card_icon text-white mb-3"
+              >
+                archive
+              </span>
+            </div>
+            <h6 class="service_title">Move In Move Out Cleaning</h6>
+            <p class="text-white">
+              Whether you're moving in or moving out, our thorough cleaning
+              service takes care of every nook and cranny, ensuring a fresh
+              start for you or leaving your previous home spotless for its next
+              occupants.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- =======  Prices  ======= -->
+    <section class="container mt-5">
+      <center>
+        <h2 class="text-white section_title pt-5 mb-3">Pricing</h2>
+        <p class="text-light mb-5">
+          Here's a glimpse into our world of childcare and household support,
+          tailored to meet your unique needs
+        </p>
+      </center>
+
+      <div class="row overflow_content">
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-5"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="price_card py-5 h-100 px-3">
+            <div class="triangle_topleft"></div>
+            <center>
+              <h5 class="mb-2 price_sub">Day / Nanny</h5>
+              <p class="gold_text mb-5">
+                For families seeking reliable daytime childcare
+              </p>
+              <h1 class="mx-3 price_title">R350</h1>
+              <p class="text-secondary mb-5">
+                Adhoc Rates per Shift: Experience peace of mind at R350 per
+                9-hour shift
+              </p>
+              <h1 class="mx-3 price_title">R3800</h1>
+              <p class="text-secondary mb-5">
+                Private Monthly Rates: Enjoy consistent support at R3800 for 8
+                hours a day, Monday to Friday
+              </p>
+              <p class="text-secondary mb-4">
+                Once-Off Private Placement: Let us handle the details. Terms &
+                Conditions Apply.
+              </p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-5"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="price_card py-5 h-100 px-3">
+            <div class="triangle_topleft"></div>
+            <center>
+              <h5 class="mb-2 price_sub">Night Nanny</h5>
+              <p class="gold_text mb-5">
+                For those needing overnight care and support
+              </p>
+              <h1 class="mx-3 price_title">R390</h1>
+              <p class="text-secondary mb-5">
+                Adhoc Rates per Shift: Ensure a restful night for R390 per
+                12-hour shift
+              </p>
+              <h1 class="mx-3 price_title">R4000</h1>
+              <p class="text-secondary mb-5">
+                Private Monthly Rates: Secure peace of mind for R4000, Monday to
+                Friday, over 12 hours
+              </p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-5"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="price_card py-5 h-100 px-3">
+            <div class="triangle_topleft"></div>
+            <center>
+              <h5 class="mb-2 price_sub">Nanny Domestic</h5>
+              <p class="gold_text mb-5">
+                Combining childcare with a helping hand around the house
+              </p>
+              <h1 class="mx-3 price_title">R390</h1>
+              <p class="text-secondary mb-5">
+                Nanny Domestic Rate: Experience the best of both worlds at R390
+                per 9-hour shift.
+              </p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 offset-lg-2 text-center mb-5"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="price_card py-5 h-100 px-3">
+            <div class="triangle_topleft"></div>
+            <center>
+              <h5 class="mb-2 price_sub">Babysitter</h5>
+              <p class="gold_text mb-5">
+                Short-term childcare for your convenience
+              </p>
+              <h1 class="mx-3 price_title">R300</h1>
+              <p class="text-secondary mb-5">
+                Minimum Hours: Flexible options starting at 4 hours
+              </p>
+              <p class="text-secondary mb-5">
+                Babysitter Rate: Ensure your little one's happiness for just
+                R300
+              </p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-5"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="price_card py-5 h-100 px-3">
+            <div class="triangle_topleft"></div>
+            <center>
+              <h5 class="mb-2 price_sub">Nanny-Domestic</h5>
+              <p class="gold_text mb-5">
+                Finding harmony in childcare and household tasks
+              </p>
+              <h1 class="mx-3 price_title">R4200</h1>
+              <p class="text-secondary mb-5">
+                Monthly Rate: Enjoy consistent support at R4200.
+              </p>
+              <p class="text-secondary mb-5">
+                Once-Off Placement: Let us find your perfect match. Terms &
+                Conditions Apply
+              </p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- =======  Footer  ======= -->
+    <section class="py-5 mt-5 client_mainCard">
+      <div class="container">
+        <center>
+          <h2 class="text-white section_title">We Are Here To Help You</h2>
+        </center>
+
+        <div class="row mt-5">
+          <div class="col-12 col-md-12 col-lg-4 mb-5">
+            <h6 class="text-white fw-bold">About</h6>
+            <p class="text-light">
+              At NannyMaids, we're dedicated to providing top-notch cleaning and
+              babysitting services tailored to your needs. With a commitment to
+              excellence and customer satisfaction, we strive to make your home
+              sparkle and your children happy. Trust us to handle the details,
+              so you can focus on what matters most - quality time with your
+              family.
+            </p>
+            <div class="f-flex">
+              <i class="bi bi-facebook text-white footer_icon"></i>
+              <i class="bi bi-whatsapp text-white mx-3 footer_icon"></i>
+              <i class="bi bi-instagram text-white footer_icon"></i>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="centered-container">
+              <h6 class="text-white fw-bold">Links</h6>
+              <p class="text-light">Home</p>
+              <p class="text-light">About</p>
+              <p class="text-light">Services</p>
+              <p class="text-light">Contact</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <h6 class="text-white fw-bold">Newsletter</h6>
+            <p class="text-light">
+              Subrcribe to our newsletter to get our latest updates and news.
+            </p>
+
+            <div class="row mt-3">
+              <div class="col">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control py-2"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Animation Scripts start  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Animation Scripts end  -->
+  </body>
+</html>

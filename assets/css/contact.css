@@ -1,0 +1,43 @@
+:root {
+  --primary_color: #b29753;
+  --secondary_color: #000000;
+  --light_black_color: #191919;
+  --background_color: #f1f3f2;
+  --secondary_background_color: #418360;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #000000ef;
+  /* background-color: #000000c5;  */
+  /* background-color: #000000d6;  */
+}
+
+.text_color {
+  color: #012350 !important;
+}
+
+.section_background {
+  background-color: var(--primary_color);
+  border-radius: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact_img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.icon_container {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background_color);
+}

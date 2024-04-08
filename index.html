@@ -35,7 +35,130 @@
     <!-- AOS animation  -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- Main Css  -->
     <link rel="stylesheet" href="/assets/css/main.css" />
+
+    <!-- Service Css for prices  -->
+    <link rel="stylesheet" href="/assets/css/services.css" />
+
+    <style>
+      .banner01 {
+        background-image: linear-gradient(
+            rgba(178, 151, 83, 0.537),
+            rgba(178, 151, 83, 0.986)
+          ),
+          url("assets/images/cleaning06.jpg");
+
+        background-repeat: no-repeat;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 100%;
+        background-size: cover;
+      }
+
+      .project_img {
+        /* background-image: url("assets/images/cleaning08.jpg"); */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.319),
+            rgba(0, 0, 0, 0.329)
+          ),
+          url("assets/images/cleaning08.jpg");
+        background-size: cover;
+        border-top-right-radius: 70px;
+        height: 300px;
+        width: 100%;
+        position: relative;
+        height: 300px; /* Adjust as needed */
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .project_img02 {
+        /* background-image: url("assets/images/cleaning08.jpg"); */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.319),
+            rgba(0, 0, 0, 0.329)
+          ),
+          url("assets/images/cleaning09.jpg");
+        background-size: cover;
+        border-top-right-radius: 70px;
+        height: 300px;
+        width: 100%;
+        position: relative;
+        height: 300px; /* Adjust as needed */
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .project_img03 {
+        /* background-image: url("assets/images/cleaning08.jpg"); */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.319),
+            rgba(0, 0, 0, 0.329)
+          ),
+          url("assets/images/nannyMaids/move_in.jpg");
+        background-size: cover;
+        border-top-right-radius: 70px;
+        height: 300px;
+        width: 100%;
+        position: relative;
+        height: 300px; /* Adjust as needed */
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .project_img04 {
+        /* background-image: url("assets/images/cleaning08.jpg"); */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.319),
+            rgba(0, 0, 0, 0.329)
+          ),
+          url("assets/images/cleaning11.jpg");
+        background-size: cover;
+        border-top-right-radius: 70px;
+        height: 300px;
+        width: 100%;
+        position: relative;
+        height: 300px; /* Adjust as needed */
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .contact_card {
+        background-image: url("assets/images/family.jpg");
+        background-repeat: no-repeat;
+        height: 700px;
+        width: 100%;
+        background-size: cover;
+      }
+
+      .card_img {
+        background-image: url("assets/images/nannyMaids/valentines_special.jpg");
+        height: 240px;
+        width: 100%;
+        background-size: cover;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+      }
+
+      .card_img2 {
+        background-image: url("assets/images/nannyMaids/spring_clean.jpg");
+        height: 240px;
+        width: 100%;
+        background-size: cover;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+      }
+
+      .card_img3 {
+        background-image: url("assets/images/nannyMaids/comments.jpg");
+        height: 240px;
+        width: 100%;
+        background-size: cover;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+      }
+    </style>
 
     <title>Cleaning Service</title>
   </head>
@@ -48,7 +171,9 @@
           alt=""
           class="navbar_img rounded"
         />
-        <a class="navbar-brand d-none d-md-block" href="#">NannyMaids </a>
+        <a class="navbar-brand d-none d-md-block" href="index.html"
+          >NannyMaids
+        </a>
 
         <button
           class="navbar-toggler"
@@ -64,18 +189,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active navLinks" aria-current="page" href="#"
+              <a
+                class="nav-link active navLinks"
+                aria-current="page"
+                href="index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link navLinks" href="#">About</a>
+              <a class="nav-link navLinks" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navLinks" href="#">Services</a>
+              <a class="nav-link navLinks" href="services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navLinks" href="#">Contact</a>
+              <a class="nav-link navLinks" href="contact.html">Contact</a>
             </li>
           </ul>
           <div class="d-flex">
@@ -361,7 +489,7 @@
       <div class="container mt-5 overflow_content">
         <center>
           <h5 class="sub_title">What We Do</h5>
-          <h2 class="section_title">Provice Worlwide Services</h2>
+          <h2 class="section_title">Provide Worldwide Services</h2>
         </center>
         <div class="row mt-5">
           <div
@@ -495,6 +623,113 @@
           </div>
           <!-- end white item  -->
         </div>
+      </div>
+    </section>
+
+    <!-- =======  service areas  ======= -->
+    <section class="mt-5 py-5">
+      <div class="container">
+        <center>
+          <h2 class="section_title">Our Service Areas</h2>
+          <h5 class="sub_title pb-5">
+            At NannyMaids, we're proud to serve families in various locations
+            across South Africa. Our services are available in
+          </h5>
+        </center>
+
+        <div class="row my-5 overflow_content">
+          <div
+            class="col-12 col-md-6 col-lg-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div>
+              <center>
+                <div class="area_container mb-5">
+                  <i class="bi bi-geo-alt-fill area_icon"></i>
+                </div>
+                <h5 class="text-white">Gauteng</h5>
+                <p class="text-light">
+                  Covering Johannesburg, Pretoria, and surrounding areas
+                </p>
+              </center>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div>
+              <center>
+                <div class="area_container mb-5">
+                  <i class="bi bi-geo-alt-fill area_icon"></i>
+                </div>
+                <h5 class="text-white">Durban</h5>
+                <p class="text-light">
+                  Bringing exceptional care to households in Durban and its
+                  suburbs
+                </p>
+              </center>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div>
+              <center>
+                <div class="area_container mb-5">
+                  <i class="bi bi-geo-alt-fill area_icon"></i>
+                </div>
+                <h5 class="text-white">Cape Town</h5>
+                <p class="text-light">
+                  Servicing families in Cape Town and its beautiful surroundings
+                </p>
+              </center>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div>
+              <center>
+                <div class="area_container mb-5">
+                  <i class="bi bi-geo-alt-fill area_icon"></i>
+                </div>
+                <h5 class="text-white">Port Elizabeth</h5>
+                <p class="text-light">
+                  Extending our support to families in Port Elizabeth and nearby
+                  communities
+                </p>
+              </center>
+            </div>
+          </div>
+          <!-- end item  -->
+        </div>
+
+        <center>
+          <h6 class="sub_title pt-5">
+            Ready to experience the NannyMaids difference? Contact us to
+            schedule your cleaning or childcare service in one of our service
+            areas
+          </h6>
+          <button
+            class="btn btn_book_service py-3 px-5 rounded-pill mt-5 fw-bold"
+          >
+            Book Your Service Today
+          </button>
+        </center>
       </div>
     </section>
 
@@ -833,86 +1068,149 @@
 
     <!-- =======  Prices  ======= -->
     <section class="py-5 client_mainCard">
-      <div class="container mt-5">
-        <div class="row overflow_content">
-          <!-- col-5  -->
+      <div class="container">
+        <center>
+          <h3 class="text-white fw-bold mb-3">
+            Budget-Friendly Care Solutions
+          </h3>
+          <p class="text-white">
+            Discover high-quality care solutions tailored to your needs without
+            compromising on excellence. From pristine residential cleaning to
+            attentive nanny services, we offer affordable options for your peace
+            of mind.
+          </p>
+        </center>
+        <div class="row mt-5 overflow_content">
           <div
-            class="col-12 col-md-12 col-lg-5 mb-4 d-flex align-items-center"
-            data-aos="fade-right"
+            class="col-12 col-md-6 col-lg-4 mb-5"
+            data-aos="zoom-in"
             data-aos-delay="50"
             data-aos-duration="1000"
           >
-            <div>
-              <h3 class="text-white fw-bold mb-3">
-                Budget-Friendly Care Solutions
-              </h3>
-              <p class="text-white">
-                Discover high-quality care solutions tailored to your needs
-                without compromising on excellence. From pristine residential
-                cleaning to attentive nanny services, we offer affordable
-                options for your peace of mind.
-              </p>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg mb-4">
-            <div
-              class="price_card p-5 h-100"
-              data-aos="fade-left"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-            >
+            <div class="price_card py-5 h-100 px-3">
+              <div class="triangle_topleft"></div>
               <center>
-                <h6 class="mb-5 price_sub">Residential Cleaning</h6>
-                <div class="d-flex justify-content-center mb-4">
-                  <div class="d-flex">
-                    <p>From</p>
-                    <h1 class="mx-3 price_title">R250</h1>
-                    <p>per day</p>
-                  </div>
-                </div>
-                <p class="text-secondary">
-                  Experience the convenience of our residential cleaning
-                  service, starting from just R250 a day. Perfect for smaller
-                  spaces or light cleaning needs, this package includes surface
-                  cleaning, dusting, and vacuuming, ensuring your home stays
-                  fresh and inviting without breaking the bank
+                <h5 class="mb-2 price_sub">Day / Nanny</h5>
+                <p class="gold_text mb-5">
+                  For families seeking reliable daytime childcare
                 </p>
-                <button class="btn btn_book rounded-pill py-3 mt-4">
-                  Book Now
-                </button>
+                <h1 class="mx-3 price_title">R350</h1>
+                <p class="text-secondary mb-5">
+                  Adhoc Rates per Shift: Experience peace of mind at R350 per
+                  9-hour shift
+                </p>
+                <h1 class="mx-3 price_title">R3800</h1>
+                <p class="text-secondary mb-5">
+                  Private Monthly Rates: Enjoy consistent support at R3800 for 8
+                  hours a day, Monday to Friday
+                </p>
+                <p class="text-secondary mb-4">
+                  Once-Off Private Placement: Let us handle the details. Terms &
+                  Conditions Apply.
+                </p>
               </center>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg mb-4">
-            <div
-              class="price_card p-5 h-100"
-              data-aos="fade-left"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-            >
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-5"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="price_card py-5 h-100 px-3">
+              <div class="triangle_topleft"></div>
               <center>
-                <h6 class="mb-5 price_sub">Daycare Service</h6>
-                <div class="d-flex justify-content-center mb-4">
-                  <div class="d-flex">
-                    <p>From</p>
-                    <h1 class="mx-3 price_title">R350</h1>
-                    <p>per day</p>
-                  </div>
-                </div>
-                <p class="text-secondary">
-                  Enjoy peace of mind with our nanny services, starting from
-                  R350 a day. Our experienced caregivers provide attentive
-                  supervision and engaging activities for your child, making
-                  sure they are safe and happy while you handle your daily
-                  tasks. This affordable option ensures quality care without
-                  compromise
+                <h5 class="mb-2 price_sub">Night Nanny</h5>
+                <p class="gold_text mb-5">
+                  For those needing overnight care and support
                 </p>
-                <button class="btn btn_book rounded-pill py-3 mt-4">
-                  Book Now
-                </button>
+                <h1 class="mx-3 price_title">R390</h1>
+                <p class="text-secondary mb-5">
+                  Adhoc Rates per Shift: Ensure a restful night for R390 per
+                  12-hour shift
+                </p>
+                <h1 class="mx-3 price_title">R4000</h1>
+                <p class="text-secondary mb-5">
+                  Private Monthly Rates: Secure peace of mind for R4000, Monday
+                  to Friday, over 12 hours
+                </p>
               </center>
             </div>
           </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-5"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="price_card py-5 h-100 px-3">
+              <div class="triangle_topleft"></div>
+              <center>
+                <h5 class="mb-2 price_sub">Nanny Domestic</h5>
+                <p class="gold_text mb-5">
+                  Combining childcare with a helping hand around the house
+                </p>
+                <h1 class="mx-3 price_title">R390</h1>
+                <p class="text-secondary mb-5">
+                  Nanny Domestic Rate: Experience the best of both worlds at
+                  R390 per 9-hour shift.
+                </p>
+              </center>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-4 offset-lg-2 text-center mb-5"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="price_card py-5 h-100 px-3">
+              <div class="triangle_topleft"></div>
+              <center>
+                <h5 class="mb-2 price_sub">Babysitter</h5>
+                <p class="gold_text mb-5">
+                  Short-term childcare for your convenience
+                </p>
+                <h1 class="mx-3 price_title">R300</h1>
+                <p class="text-secondary mb-5">
+                  Minimum Hours: Flexible options starting at 4 hours
+                </p>
+                <p class="text-secondary mb-5">
+                  Babysitter Rate: Ensure your little one's happiness for just
+                  R300
+                </p>
+              </center>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-5"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="price_card py-5 h-100 px-3">
+              <div class="triangle_topleft"></div>
+              <center>
+                <h5 class="mb-2 price_sub">Nanny-Domestic</h5>
+                <p class="gold_text mb-5">
+                  Finding harmony in childcare and household tasks
+                </p>
+                <h1 class="mx-3 price_title">R4200</h1>
+                <p class="text-secondary mb-5">
+                  Monthly Rate: Enjoy consistent support at R4200.
+                </p>
+                <p class="text-secondary mb-5">
+                  Once-Off Placement: Let us find your perfect match. Terms &
+                  Conditions Apply
+                </p>
+              </center>
+            </div>
+          </div>
+          <!-- end item  -->
         </div>
       </div>
     </section>
